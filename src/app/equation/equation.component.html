@@ -2,8 +2,8 @@
   <div class="equation">
     {{a}} + {{b}}
   </div>
-  <input class="" appAnswerHighlight formControlName="answer" >
-
+  <input  appAnswerHighlight formControlName="answer" >
+  <!-- [ngClass]="{ close: (a! + b! * 0.8) > answer! }" -->
 </form>
 <div class="stats">
   {{secondsPerSolution | number : '1.1-3'}}

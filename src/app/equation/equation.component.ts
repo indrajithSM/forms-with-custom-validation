@@ -65,6 +65,9 @@ export class EquationComponent implements OnInit {
   get a() {
     return this.mathForm.value.a;
   }
+  get answer() {
+    return parseInt(this.mathForm?.value?.answer ?? '0', 10);
+  }
   get b() {
     return this.mathForm.value.b;
   }
